@@ -5,7 +5,7 @@
 
 # ── IP 优先级 ───────────────────────────────────────────────────────
 # "ipv6" = IPv6 地址优先排在前面；"ipv4" = IPv4 优先
-ip_version_priority = "ipv6"
+ip_version_priority = "ipv4"
 
 # ── 源优先级 ────────────────────────────────────────────────────────
 # "hotel" = 酒店源优先排在前面；"subscription" = 订阅源优先
@@ -31,7 +31,7 @@ source_urls = [
 hotel_config = {
     "hotel_api": "",
     "enabled": True,
-    "allowed_orgs": ["China Mobile","Alibaba Cloud"],
+    "allowed_orgs": ["China Telecom","Alibaba Cloud"],
 }
 
 # ── URL 黑名单 ───────────────────────────────────────────────────────
